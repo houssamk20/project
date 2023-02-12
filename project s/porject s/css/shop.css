@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-    background-image:url('/img/shop\ \(2\).png');
+    background-image:url("../img/shop\ \(2\).png");
     background-size:cover ;
     background-repeat: no-repeat;
     display: block;
@@ -94,7 +94,7 @@ h3{
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
+    margin: 40px 0;
 }
 .item{
     width: 30%;
@@ -211,6 +211,12 @@ h2{
     cursor: pointer;
     transition: .3s;
 }
+.order{
+    display: flex;
+}
+.delete{
+    color: #333;
+}
 button{
     text-align: center;
     font-size: 24px;
@@ -223,6 +229,37 @@ button{
     margin-top: 5px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+.container{
+    display: flex;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.sidebar{
+    width: 40%;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.head{
+    background-color: goldenrod;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid #333;
 }
 .buy{
     background: #000;
